@@ -1,0 +1,18 @@
+[global]
+verbose=false
+
+[sync]
+# 同步 filter.dat 的 URLs，用逗号分割
+dat-urls=https://ipfilter.viz.network/ipfilter.dat
+# 同步间隔，默认单位为秒，可写成 1h2m3s 这样的格式，0 秒为仅执行一次
+interval=15m
+# 缓存目录
+cache-dir=cache
+# 输出目录，用于存放 A/B 槽输出文件（filter-a.dat/filter-b.dat ）
+output-dir=.
+# qBittorrent WebUI 的 URL（不支持路径），例如 http://localhost:8080
+webui-url=
+# qBittorrent WebUI 的用户名
+username=admin
+# qBittorrent WebUI 的密码（为空时不登录，需要配置免登录白名单）
+password=
