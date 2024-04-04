@@ -1,0 +1,25 @@
+# Common
+*~
+
+# Vim
+*.sw?
+
+# KDE
+.directory
+
+# OSX
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+
+# VSCode
+.vscode/
+
+# Project
+/cache/
+/ipfilter
+/ipfilter.exe
+/ipfilter.ini
+/ipfilter-[ab].dat
